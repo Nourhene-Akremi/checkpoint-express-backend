@@ -1,0 +1,113 @@
+/* Body initialisation */
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(33, 206, 134); */
+  background: url("./image.jpg")
+    no-repeat center center fixed;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Navbar Css */
+
+nav {
+  max-width: 100%;
+  mask-image: linear-gradient(
+    90deg,rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 25%,
+    rgb(255, 255, 255) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin: 0%;
+  padding: 0%;
+}
+
+nav ul {
+  text-align: center;
+  background: #56d170e6;
+  border:  inset rgba(7, 39, 7, 0.726) ;
+  border-radius: 1rem ;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 18px;
+  font-family: serif;
+  font-size: 10rem;
+  color: rgba(1, 87, 40, 0.5);
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0% 5% 0% 5%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(37, 21, 180);
+  font-family: serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+ 
+}
+
+nav ul li:hover {
+  background: rgba(1, 87, 40, 0.521);
+  color: rgba(34, 44, 38, 0.5);
+  cursor: pointer;
+  transform:translateY(-.3rem);
+  border-radius: 2rem;
+  border-style: hidden;
+  position: relative;
+  
+
+}
+
+nav ul li:left {
+  transition: 100ms;
+}
+
+/* Main Css */
+
+h1 {
+  text-align: center;
+
+  width: 25rem;
+  margin-left: 25rem;
+  position:absolute;
+  /* font-size: 4rem; */
+  /* background-image: url("./image.jpg");
+  background-size:cover;
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:transparent; */
+  background-image:linear-gradient(60deg,rgb(32, 7, 145),50%,rgb(187, 14, 187));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip:text; 
+  border-radius: 10px;
+  padding: .5rem;
+}
+
+
+h3 {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 2%;
+  margin: 5% 30% 0% 30%;
+  color: #af3421;
+  border-radius: 15px;
+
+}
+
+h4 {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 2%;
+  margin: 5% 30% 0% 30%;
+  color: #af3421;
+ border-radius: 15px;
+
+}
+
